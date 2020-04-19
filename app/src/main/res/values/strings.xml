@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pie MTU</string>
+    <string name="version">"Version: %s"</string>
+    <string name="description">Network timeouts on Android 9 (Pie) using WiFi
+        may be caused by Android kernel variable ip_no_pmtu_disc=1 combined with
+        your router setup.\n\nYou can try setting up the router to use MTU size to
+        1492.\n\nAlternatively, you can use this tool to set the value of
+        ip_no_pmtu_disc to 0 (requires root access), valid until next reboot.</string>
+    <string name="need_su_label">Root access is required for Set/Clear buttons
+        to be enabled.</string>
+    <string name="clear_btn">Clear</string>
+    <string name="set_btn">Set</string>
+</resources>
